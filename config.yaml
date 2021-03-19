@@ -1,0 +1,10 @@
+kafka:
+    addrs: ["127.0.0.1:9092"]
+    group:
+        delay: "delay"
+    topic:
+        delay5s: "delay5s"
+        delay1m: "delay1m"
+        delay10m: "delay10m"
+        delay1h: "delay1h"
+    partNum: 8
